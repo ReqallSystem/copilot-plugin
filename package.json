@@ -1,10 +1,14 @@
 {
   "name": "@reqall/copilot-plugin",
-  "version": "2026.2.1",
+  "version": "2026.10.4",
   "description": "Reqall plugin for GitHub Copilot — persistent semantic memory for AI agents",
   "type": "module",
   "files": [
-    ".vscode"
+    ".vscode",
+    ".github"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
 }
